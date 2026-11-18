@@ -1,0 +1,22 @@
+      <header class="ova-screen__head" data-reveal>
+        <div class="ova-screen__eyebrow">Unidad <span data-ova-hueco="número de la unidad"></span></div>
+        <h1 class="ova-screen__title">Créditos</h1>
+      </header>
+
+      <!-- Sección «Créditos» del Word (cargo, persona, versión y año; los rótulos con sus dos puntos y en
+           negrilla, como en el Word), con la pieza de UNIS (.un-creditos, como la plantilla-base). Va un
+           .un-creditos__rol por cada cargo del Word. El texto del © lo pone el kit y está pendiente de
+           que UNIS lo confirme (INSTITUCION §6); el año es el del Word. -->
+      <section class="un-creditos" data-reveal>
+        <p class="un-creditos__unidad">Unidad <span data-ova-hueco="número de la unidad"></span></p>
+        <dl class="un-creditos__roles">
+          <div class="un-creditos__rol">
+            <dt><strong data-ova-hueco="cargo con sus dos puntos, literal de la sección «Créditos» del DI"></strong></dt>
+            <dd data-ova-hueco="persona, literal del DI"></dd>
+          </div>
+        </dl>
+        <footer class="un-creditos__pie">
+          <span>© <span data-ova-hueco="año, del DI"></span> Universidad del Istmo. Todos los derechos reservados.</span>
+          <span><strong>Versión:</strong> <span data-ova-hueco="número de la versión, del DI"></span></span>
+        </footer>
+      </section>

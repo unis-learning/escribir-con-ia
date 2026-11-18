@@ -1,0 +1,148 @@
+      <header class="ova-screen__head" data-reveal>
+        <!-- Título del DI con el remate de la piel en la última palabra (INSTITUCION §3.1, 1; aprobado
+             para los tres temas, 2026-11-18). El primer párrafo del Word va de lead. -->
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Pedir <span class="un-destacado">bien</span></h1>
+        <p class="ova-screen__lead">La calidad de lo que la IA entrega depende en buena medida de lo que se le pide. Un pedido vago produce una respuesta genérica; un pedido que explica la situación, el propósito, el lector y la forma esperada produce un texto con el que se puede trabajar. Este tema le propone una estructura sencilla para escribir esas instrucciones, que también se conocen como <em>prompts</em>.</p>
+      </header>
+
+      <!-- Foto decorativa (catálogo): «Vincular Imagen-03» y su pie, literal del Word. Foto de Unsplash
+           (insumos/imagenes/LICENCIAS.md); el texto alternativo es capa editorial. -->
+      <figure class="ova-foto-ancha" data-reveal>
+        <img src="assets/img/curso/figura-03-apuntes.webp"
+             alt="Un cuaderno abierto con apuntes a mano sobre un escritorio; al lado, notas adhesivas, hojas sueltas y la esquina de un portátil." />
+        <figcaption>Pedir bien empieza antes de escribir la instrucción: con lo que usted ya sabe del tema.</figcaption>
+      </figure>
+
+      <section class="un-seccion" id="tema{{NUM}}-1" data-reveal>
+        <h2 class="un-seccion__titulo">2.1 Las partes de una buena instrucción</h2>
+      </section>
+
+      <p data-reveal>Una instrucción útil responde, antes de que la IA tenga que adivinarlo, a cuatro preguntas: en qué situación está usted, qué necesita, para quién es el texto y cómo quiere recibir la respuesta.</p>
+
+      <!-- Slider de pasos (catálogo), sin imagen: el Word no trae «Imagen sugerida:». El número del paso
+           lo pone la pieza. DESVIACIÓN DEL DI: la línea «Instrucción:» viene en negrilla y el llamado va
+           en el peso de la pieza, en todo el curso (aprobado, 2026-11-18). -->
+      <h3 class="ova-rotulo" data-reveal><strong>Las cuatro partes de una instrucción</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Avance por los pasos y observe cómo se arma, parte por parte, la instrucción de Valeria.</p>
+      <div class="ova-tabs ova-tabs--pasos" data-reveal>
+        <p class="ova-tabs__situacion"><strong>Situación:</strong> Valeria necesita un esquema para su ensayo sobre la deserción en la educación virtual.</p>
+        <div class="ova-tabs__marco">
+          <div class="ova-tabs__nav">
+            <button class="ova-tabs__btn is-active"><span class="ova-tabs__num">1</span><span>Contexto</span></button>
+            <button class="ova-tabs__btn"><span class="ova-tabs__num">2</span><span>Propósito</span></button>
+            <button class="ova-tabs__btn"><span class="ova-tabs__num">3</span><span>Público</span></button>
+            <button class="ova-tabs__btn"><span class="ova-tabs__num">4</span><span>Formato</span></button>
+          </div>
+          <div class="ova-tabs__panels">
+            <div class="ova-tabs__panel is-active">
+              <div class="ova-tabs__media">
+                <div>
+                  <h4><strong>Contexto</strong></h4>
+                  <p>Explique quién es usted y en qué situación está. «Soy estudiante de una maestría en Gestión Educativa y estoy preparando un ensayo académico».</p>
+                </div>
+              </div>
+            </div>
+            <div class="ova-tabs__panel">
+              <div class="ova-tabs__media">
+                <div>
+                  <h4><strong>Propósito</strong></h4>
+                  <p>Diga qué necesita y para qué. «Necesito un esquema de cinco apartados para un ensayo que argumente por qué los estudiantes abandonan los programas virtuales».</p>
+                </div>
+              </div>
+            </div>
+            <div class="ova-tabs__panel">
+              <div class="ova-tabs__media">
+                <div>
+                  <h4><strong>Público</strong></h4>
+                  <p>Indique quién leerá el texto. «Lo leerá un comité docente que conoce el tema y espera argumentos sustentados, no generalidades».</p>
+                </div>
+              </div>
+            </div>
+            <div class="ova-tabs__panel">
+              <div class="ova-tabs__media">
+                <div>
+                  <h4><strong>Formato</strong></h4>
+                  <p>Precise cómo quiere la respuesta. «Entrégueme el esquema en una lista numerada, con una oración que explique cada apartado, y no redacte el ensayo».</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ova-tabs__pie">
+            <span class="ova-tabs__cuenta" aria-live="polite"></span>
+            <div class="ova-tabs__flechas">
+              <button type="button" class="ova-tabs__flecha" data-ova-paso="-1" aria-label="Paso anterior"><iconify-icon icon="mdi:arrow-left"></iconify-icon></button>
+              <button type="button" class="ova-tabs__flecha" data-ova-paso="1" aria-label="Paso siguiente"><iconify-icon icon="mdi:arrow-right"></iconify-icon></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>La diferencia se nota de inmediato al comparar dos pedidos sobre el mismo tema.</p>
+
+      <!-- Comparativo - error y acierto (catálogo): los dos lados lado a lado, literales del Word. -->
+      <h3 class="ova-rotulo" data-reveal><strong>El mismo pedido, de dos maneras</strong></h3>
+      <div class="ova-vs ova-vs--error-acierto" data-reveal>
+        <div class="ova-vs__card">
+          <span class="ova-vs__card-tag"><strong>Pedido vago</strong></span>
+          <p>«Escríbame un ensayo sobre la deserción en la educación virtual». La IA responde con un texto completo, genérico y sin fuentes, que Valeria no escribió y que no sabría defender.</p>
+        </div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt">
+          <span class="ova-vs__card-tag"><strong>Pedido claro</strong></span>
+          <p>La instrucción con contexto, propósito, público y formato. La IA responde con un esquema que Valeria puede discutir, ajustar y desarrollar con sus propias palabras.</p>
+        </div>
+      </div>
+
+      <!-- Bloque destacado - fondo claro (catálogo). El Word no trae nota de icono: el icono es el que el
+           catálogo asocia a «Para tener en cuenta» (capa editorial). -->
+      <div class="ova-destacados" data-reveal>
+        <div class="ova-destacado">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:alert-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Para tener en cuenta</strong></h4>
+            <p>Pídale a la IA lo que usted puede evaluar. Si no sabría reconocer una buena respuesta, todavía no está en condiciones de hacer la pregunta: <strong>lea primero sobre el tema</strong> y vuelva después a la herramienta.</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="un-seccion" id="tema{{NUM}}-2" data-reveal>
+        <h2 class="un-seccion__titulo">2.2 Conversar con la IA: pedir, revisar y volver a pedir</h2>
+      </section>
+
+      <p data-reveal>La primera respuesta casi nunca es la definitiva. Trabajar con IA se parece más a una conversación que a una orden: usted pide, revisa lo que recibe y vuelve a pedir con más precisión. Cada vuelta le exige leer críticamente, y esa lectura es parte del aprendizaje.</p>
+
+      <!-- Texto corrido: el Word lo pedía en «Pestañas - línea»; cada pestaña traía una sola frase, así
+           que va a la vista (aprobado, 2026-11-18; el rótulo y la instrucción salieron del Word). El
+           título del grupo, Subtítulo con viñeta nivel 2; cada ajuste, Subtítulo nivel 3 con su frase. -->
+      <h3 class="ova-subtitulo ova-subtitulo--2 ova-subtitulo--vineta" data-reveal><strong>Tres maneras de volver a pedir</strong></h3>
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Precisar</strong></h4>
+      <p data-reveal>«Los apartados 2 y 3 dicen lo mismo. Proponga una alternativa para el apartado 3 que trate los factores institucionales».</p>
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Cuestionar</strong></h4>
+      <p data-reveal>«¿Qué argumentos en contra de esta tesis podría plantear un evaluador? Deme tres».</p>
+      <h4 class="ova-subtitulo ova-subtitulo--3" data-reveal><strong>Limitar</strong></h4>
+      <p data-reveal>«No agregue datos ni citas. Si una afirmación necesita una fuente, márquela con [FUENTE] para que yo la busque».</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo), «Error frecuente»: el color lo pone el título. -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--error">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:close-circle-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo"><strong>Error frecuente</strong></h4>
+            <p>Pedirle a la IA que «mejore» un texto sin decir en qué. El resultado suele ser un párrafo más largo, más formal y menos suyo. <strong>Diga siempre qué quiere cambiar</strong>: la claridad, la extensión, el orden o el tono.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botón de ventana modal (catálogo): sin «Título de la ventana:» en el Word, la ventana lleva el
+           título del botón. -->
+      <div class="ova-ventana" data-reveal>
+        <button class="ova-btn ova-btn--outline ova-ventana__boton" data-ova-modal-open="ventana-reto-tema2"><iconify-icon icon="mdi:card-text-outline"></iconify-icon> <strong>Volviendo al reto de la unidad</strong></button>
+        <div class="ova-modal" id="ventana-reto-tema2"><div class="ova-modal__dialog">
+          <div class="ova-modal__head"><h3><strong>Volviendo al reto de la unidad</strong></h3><button class="ova-modal__close" data-ova-modal-close aria-label="Cerrar"><iconify-icon icon="mdi:close"></iconify-icon></button></div>
+          <div class="ova-modal__body">
+            <p>Con un esquema que ella misma discutió con la IA, Valeria ya tiene lo más difícil: una pregunta clara y un orden para sus argumentos. Ahora debe escribir. Su decisión es redactar ella los párrafos y usar la IA solo para revisar la forma y buscar contraargumentos.</p>
+          </div>
+          <div class="ova-modal__foot"><button class="ova-btn ova-btn--outline" data-ova-modal-close>Cerrar</button></div>
+        </div></div>
+      </div>

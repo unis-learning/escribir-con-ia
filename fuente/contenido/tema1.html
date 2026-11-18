@@ -1,0 +1,190 @@
+      <header class="ova-screen__head" data-reveal>
+        <!-- Eyebrow: el numeral del tema; título: el del DI, «1. Qué hace bien la IA y qué no», con el
+             numeral en el eyebrow (INSTITUCION §2). Lead: el propósito del tema, literal y completo.
+             DISEÑO: el remate del título, como en «Contenido de la unidad»; los subtítulos 1.1 y 1.2 van
+             lisos, un solo remate por pantalla (aprobado, 2026-11-18); el texto no cambia. -->
+        <div class="ova-screen__eyebrow">Tema {{NUM}}</div>
+        <h1 class="ova-screen__title">Qué hace bien la IA <span class="un-suave">y</span> <span class="un-destacado">qué no</span></h1>
+        <p class="ova-screen__lead">El propósito de este primer tema es que usted pueda decidir con criterio en qué momentos de la escritura conviene apoyarse en la IA y en cuáles no. La pregunta no es si usar o no estas herramientas, sino para qué: un mismo asistente puede ahorrarle una hora de trabajo o hacerle entregar un texto con errores que usted no habría cometido.</p>
+      </header>
+
+      <!-- Foto decorativa (catálogo) · «Vincular Imagen-02», con el pie literal del Word. DISEÑO: la foto
+           se recortó a franja antes de optimizarla, para que el rótulo «ChatGPT» salga entero y se vean
+           las tres columnas (aprobado, 2026-11-18); el recorte está en insumos/imagenes/.
+           EDITORIAL · el texto alternativo no viene del DI. -->
+      <figure class="ova-foto-ancha" data-reveal>
+        <img src="assets/img/curso/figura-02-chatgpt.webp"
+             alt="La pantalla de inicio de ChatGPT vista de lado, con tres columnas: ejemplos, capacidades y limitaciones." />
+        <figcaption>Las herramientas de IA generativa advierten sus propias limitaciones; conviene leerlas antes de confiar en lo que responden.</figcaption>
+      </figure>
+
+      <p data-reveal>Vuelva al caso de Valeria. Es domingo por la noche, tiene el tema del ensayo y una página en blanco. Antes de leer, formule su hipótesis sobre cuál sería el mejor primer uso de la IA en su situación:</p>
+
+      <!-- Acordeón (catálogo) · «El primer paso de Valeria». Llamado literal del Word. DESVIACIÓN DEL DI: la
+           línea «Instrucción:» viene en negrilla y el llamado va en el peso de la pieza, en todo el curso
+           (aprobado, 2026-11-18). DISEÑO: «Pregunta» abierta y «Respuesta» cerrada, como pide el llamado. -->
+      <h3 class="ova-rotulo" data-reveal><strong>El primer paso de Valeria</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Lea la pregunta del caso y despliegue la respuesta para contrastarla con su hipótesis.</p>
+      <div class="ova-acordeon" data-reveal>
+        <div class="ova-acordeon__item is-open">
+          <button class="ova-acordeon__head"><span><strong>Pregunta</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">¿Pedirle a la IA que escriba el ensayo completo, que le busque fuentes, que le proponga un esquema o que le ayude a formular la pregunta que guiará el texto?</div></div>
+        </div>
+        <div class="ova-acordeon__item">
+          <button class="ova-acordeon__head"><span><strong>Respuesta</strong></span><iconify-icon class="ova-acordeon__chev" icon="mdi:chevron-down"></iconify-icon></button>
+          <div class="ova-acordeon__body"><div class="ova-acordeon__body-inner">El uso más útil y más seguro es el último. Pedirle el ensayo completo le entrega un texto que no es suyo; pedirle fuentes la expone a referencias que pueden no existir. En cambio, conversar con la IA para afinar la pregunta del ensayo le ahorra tiempo sin quitarle la autoría: la pregunta sigue siendo de Valeria y el texto se construye a partir de ella.</div></div>
+        </div>
+      </div>
+
+      <section class="un-seccion" id="tema{{NUM}}-1" data-reveal>
+        <!-- El numeral va en el texto: el motor no numera .un-seccion__titulo. La sección lleva solo su
+             título y los bloques van fuera, como hijos de la pantalla, para que el motor los separe
+             (revisión del diagramador; aprobado, 2026-11-18) -->
+        <h2 class="un-seccion__titulo">1.1 Dónde ayuda la IA al escribir</h2>
+      </section>
+
+      <p data-reveal>Las herramientas de IA generativa, como ChatGPT, Gemini o Claude, son modelos de lenguaje: producen texto prediciendo, palabra por palabra, la continuación más probable a partir de los patrones que aprendieron de enormes cantidades de escritos. Esa forma de funcionar explica a la vez su fortaleza y su límite: <strong>generan texto fluido y plausible, pero no comprueban si lo que dicen es verdad</strong> (Bender et al., 2021).</p>
+
+      <p data-reveal>Por eso rinden mejor en las tareas en las que usted puede juzgar el resultado de inmediato.</p>
+
+      <!-- Tarjetas con icono - izquierda (catálogo) · cuatro tarjetas. Los iconos son decorativos (editorial). -->
+      <h3 class="ova-rotulo" data-reveal><strong>Cuatro tareas en las que la IA ayuda de verdad:</strong></h3>
+      <div class="ova-tarjetas" data-reveal>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:lightbulb-on-outline"></iconify-icon></div>
+            <h4>Generar ideas</h4>
+            <p>Proponer ángulos, preguntas o contraejemplos cuando usted está bloqueado. Usted decide cuáles sirven.</p>
+          </div>
+        </div>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:format-list-numbered"></iconify-icon></div>
+            <h4>Ordenar un borrador</h4>
+            <p>Sugerir una estructura posible para un texto o advertir que dos párrafos dicen lo mismo.</p>
+          </div>
+        </div>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:spellcheck"></iconify-icon></div>
+            <h4>Revisar la forma</h4>
+            <p>Señalar oraciones demasiado largas, repeticiones y errores de concordancia o de puntuación.</p>
+          </div>
+        </div>
+        <div class="ova-tarjeta">
+          <div class="ova-tarjeta__cuerpo">
+            <div class="ova-tarjeta__avatar ova-tarjeta__avatar--icono"><iconify-icon icon="mdi:book-open-page-variant-outline"></iconify-icon></div>
+            <h4>Explicar un concepto</h4>
+            <p>Ofrecer una primera explicación de un término, que usted contrasta después con una fuente confiable.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>La misma lógica sirve para todo el proceso de escritura de un trabajo académico: en cada tarea hay algo que la IA puede proponer y algo que solo usted puede decidir.</p>
+
+      <!-- Tabla simple (catálogo) · Tabla 1, con su Nota y su Fuente en renglones separados -->
+      <figure class="ova-apa-tabla" data-reveal>
+        <figcaption>
+          <span class="ova-apa-tabla__num"><strong>Tabla 1</strong></span>
+          <span class="ova-apa-tabla__titulo">Tareas de escritura académica y el papel de la IA en cada una</span>
+        </figcaption>
+        <div class="ova-tabla"><table>
+          <thead><tr><th>Tarea</th><th>Cómo puede ayudar la IA</th><th>Riesgo principal</th><th>Lo que le corresponde a usted</th></tr></thead>
+          <tbody>
+            <tr><td>Elegir la pregunta</td><td>Proponer formulaciones alternativas de una misma pregunta.</td><td>Adoptar una pregunta genérica que no responde a su interés.</td><td>Decidir qué pregunta quiere responder y por qué.</td></tr>
+            <tr><td>Buscar fuentes</td><td>Sugerir términos de búsqueda y autores para explorar.</td><td>Recibir referencias que no existen o que no dicen lo que se les atribuye.</td><td>Buscar cada fuente en una base de datos o en un catálogo, y leerla.</td></tr>
+            <tr><td>Redactar el borrador</td><td>Ofrecer un primer texto o reformular un párrafo confuso.</td><td>Entregar un texto de tono genérico que no refleja su pensamiento.</td><td>Escribir con sus palabras las ideas centrales y usar la IA para pulirlas.</td></tr>
+            <tr><td>Revisar la forma</td><td>Detectar errores de ortografía, concordancia y puntuación.</td><td>Aceptar cambios que alteran el sentido de lo que usted quiso decir.</td><td>Revisar cada cambio antes de aceptarlo.</td></tr>
+          </tbody>
+        </table></div>
+        <p class="ova-apa-tabla__nota">Nota. La columna de la derecha no se delega: es la que convierte un texto asistido en un texto propio.</p>
+        <p class="ova-apa-tabla__fuente">Fuente: elaboración propia.</p>
+      </figure>
+
+      <!-- Bloque destacado - fondo claro (catálogo) · «Importante». Icono decorativo (editorial). -->
+      <div class="ova-destacados" data-reveal>
+        <div class="ova-destacado">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:alert-circle-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo">Importante</h4>
+            <p>Que un texto esté bien escrito no significa que sea correcto. La fluidez de la IA produce una <strong>sensación de autoridad</strong> que invita a confiar en lo que dice justamente porque está bien redactado. Lea cada respuesta como leería el borrador de un compañero: con interés y con lápiz en la mano.</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="un-seccion" id="tema{{NUM}}-2" data-reveal>
+        <h2 class="un-seccion__titulo">1.2 Dónde se equivoca</h2>
+      </section>
+
+      <p data-reveal>Los errores de la IA no son aleatorios: se repiten en las mismas zonas, y conocerlas es la mejor protección. El más conocido tiene nombre propio. Se habla de <strong>alucinación</strong> cuando el modelo produce información falsa con la misma seguridad con la que produce información verdadera.</p>
+
+      <!-- Carrusel (catálogo) · cuatro tarjetas. Llamado literal del Word. DESVIACIÓN DEL DI: la línea
+           «Instrucción:» viene en negrilla y el llamado va en el peso de la pieza, en todo el curso
+           (aprobado, 2026-11-18). Los iconos son decorativos (editorial). -->
+      <h3 class="ova-rotulo" data-reveal><strong>Los cuatro errores más frecuentes de la IA al escribir</strong></h3>
+      <p class="ova-llamado" data-reveal><span class="ova-llamado__mano" aria-hidden="true"><iconify-icon icon="mdi:cursor-pointer"></iconify-icon></span>Recorra con las flechas los cuatro errores y piense cuál sería más grave en su propio trabajo.</p>
+      <div class="ova-carrusel ova-carrusel--tarjetas" data-reveal>
+        <div class="ova-carrusel__track-wrap"><div class="ova-carrusel__track">
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:chart-box-outline"></iconify-icon><h4>Datos inventados</h4><p>Cifras, fechas o porcentajes que suenan precisos y no tienen fuente. El modelo completa el patrón de «un dato» aunque no conozca el dato.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:format-quote-close"></iconify-icon><h4>Citas que no existen</h4><p>Referencias con autores reales, títulos verosímiles y revistas existentes que, sin embargo, nunca se publicaron.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:content-copy"></iconify-icon><h4>Tono genérico</h4><p>Párrafos correctos que podrían aparecer en cualquier ensayo sobre cualquier tema, sin una afirmación propia ni un ejemplo concreto.</p></div>
+          <div class="ova-carrusel__slide"><iconify-icon icon="mdi:scale-unbalanced"></iconify-icon><h4>Sesgos</h4><p>Respuestas que reproducen los sesgos de los textos con los que se entrenó el modelo, por ejemplo, al describir profesiones, regiones o grupos sociales.</p></div>
+        </div></div>
+        <div class="ova-carrusel__nav"><div class="ova-carrusel__dots"></div><div class="ova-carrusel__arrows"><button class="ova-carrusel__arrow" data-ova-carrusel-prev aria-label="Anterior"><iconify-icon icon="mdi:arrow-left"></iconify-icon></button><button class="ova-carrusel__arrow" data-ova-carrusel-next aria-label="Siguiente"><iconify-icon icon="mdi:arrow-right"></iconify-icon></button></div></div>
+      </div>
+
+      <p data-reveal>El segundo error es el que más consecuencias ha tenido fuera de las aulas.</p>
+
+      <!-- Bloque destacado - fondo de color (catálogo) · «Error frecuente»: el título decide el color.
+           Icono decorativo (editorial). -->
+      <div class="ova-destacados ova-destacados--color" data-reveal>
+        <div class="ova-destacado ova-destacado--error">
+          <span class="ova-destacado__icono" aria-hidden="true"><iconify-icon icon="mdi:close-circle-outline"></iconify-icon></span>
+          <div>
+            <h4 class="ova-destacado__titulo">Error frecuente</h4>
+            <p>En 2023, un abogado de Nueva York presentó ante un tribunal federal un escrito preparado con ayuda de ChatGPT que citaba al menos seis casos judiciales <strong>que no existían</strong>. Cuando se le pidió comprobarlos, volvió a preguntarle a la herramienta, que le aseguró que eran reales (Weiser, 2023). El error no fue usar la IA, sino no verificar ninguna de las citas.</p>
+          </div>
+        </div>
+      </div>
+
+      <p data-reveal>La preocupación no es solo individual. Las instituciones educativas también están aprendiendo a responder.</p>
+
+      <!-- Bloque con Cifra destacada - clara (catálogo) · los cinco campos del Word, literales.
+           DISEÑO: «Menos del» va en el tamaño pequeño de la unidad, delante del 10 que sube de 0 a 10
+           (aprobado, 2026-11-18); la cifra se lee «Menos del 10 %», como en el Word. -->
+      <div class="ova-indicador ova-indicador--claro" data-reveal>
+        <div class="ova-indicador__cifra">
+          <p class="ova-indicador__num"><small>Menos del</small> <span data-ova-contar>10</span> <small>%</small></p>
+          <p class="ova-indicador__mide">de más de 450 escuelas y universidades encuestadas por la UNESCO tenía, en 2023, políticas institucionales u orientaciones formales sobre el uso de la IA generativa.</p>
+        </div>
+        <div class="ova-indicador__cuerpo">
+          <p class="ova-indicador__etiqueta">Dato con evidencia</p>
+          <p>La encuesta mundial de la UNESCO, realizada pocos meses después de la llegada de ChatGPT, mostró que la mayoría de las instituciones educativas todavía no tenía reglas sobre el uso de estas herramientas. Esa ausencia traslada la decisión al estudiante: mientras no exista una regla, el criterio para usar la IA con honestidad depende de usted.</p>
+          <p class="ova-indicador__fuente">Fuente: UNESCO (2023).</p>
+        </div>
+      </div>
+
+      <p data-reveal>Con estos errores a la vista, el balance del tema puede resumirse en dos columnas.</p>
+
+      <!-- Comparativo (catálogo) · dos lados con sus títulos del Word; el «VS» lo pone la pieza -->
+      <h3 class="ova-rotulo" data-reveal><strong>Lo que la IA hace y lo que no</strong></h3>
+      <div class="ova-vs" data-reveal>
+        <div class="ova-vs__card">
+          <span class="ova-vs__card-tag"><strong>La IA hace bien</strong></span>
+          <p>Proponer, ordenar, reformular y revisar la forma de un texto que usted puede juzgar.</p>
+        </div>
+        <div class="ova-vs__divider">VS</div>
+        <div class="ova-vs__card ova-vs__card--alt">
+          <span class="ova-vs__card-tag"><strong>La IA no hace</strong></span>
+          <p>Comprobar si un dato es verdadero, garantizar que una cita existe, saber lo que usted piensa ni responder por lo que se entrega.</p>
+        </div>
+      </div>
+
+      <!-- Para reflexionar (catálogo) · la etiqueta es el rótulo del Word -->
+      <div class="ova-callout ova-callout--reflexion" data-reveal>
+        <div class="ova-callout__ico"><iconify-icon icon="mdi:comment-question-outline"></iconify-icon></div>
+        <div>
+          <span class="ova-callout__tag">Para reflexionar</span>
+          <p style="margin:8px 0 0;">¿En cuál de sus últimos trabajos habría podido colarse uno de estos cuatro errores sin que usted lo notara?</p>
+        </div>
+      </div>
